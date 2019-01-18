@@ -80,7 +80,8 @@
               "background-image": "url(@bg-value)"
             },
             "H1": {
-              "color": "#f9f295"
+              "color": "#f9f295",
+              "text-align": "center"
             },
             "H3": {
               "color": "#cccccc"
