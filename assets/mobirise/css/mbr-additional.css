@@ -685,6 +685,7 @@ a:hover {
   right: 0;
   top: 0;
   z-index: 0;
+  pointer-events: none;
 }
 blockquote {
   font-style: italic;
@@ -1383,6 +1384,37 @@ body {
     flex: auto!important;
   }
 }
+.jq-selectbox li:hover,
+.jq-selectbox li.selected {
+  background-color: #149dcc;
+  color: #ffffff;
+}
+.jq-selectbox .jq-selectbox__trigger-arrow,
+.jq-number__spin.minus:after,
+.jq-number__spin.plus:after {
+  transition: 0.4s;
+  border-top-color: currentColor;
+  border-bottom-color: currentColor;
+}
+.jq-selectbox:hover .jq-selectbox__trigger-arrow,
+.jq-number__spin.minus:hover:after,
+.jq-number__spin.plus:hover:after {
+  border-top-color: #149dcc;
+  border-bottom-color: #149dcc;
+}
+.xdsoft_datetimepicker .xdsoft_calendar td.xdsoft_default,
+.xdsoft_datetimepicker .xdsoft_calendar td.xdsoft_current,
+.xdsoft_datetimepicker .xdsoft_timepicker .xdsoft_time_box > div > div.xdsoft_current {
+  color: #ffffff !important;
+  background-color: #149dcc !important;
+  box-shadow: none!important;
+}
+.xdsoft_datetimepicker .xdsoft_calendar td:hover,
+.xdsoft_datetimepicker .xdsoft_timepicker .xdsoft_time_box > div > div:hover {
+  color: #ffffff !important;
+  background: #ff3366 !important;
+  box-shadow: none !important;
+}
 .cid-reV1S1DEny {
   padding-top: 45px;
   padding-bottom: 30px;
@@ -1565,10 +1597,55 @@ body {
 .cid-reVPsLXR6F H2 {
   color: #ff3366;
 }
+.cid-rrgmVh4HZQ {
+  padding-top: 90px;
+  padding-bottom: 90px;
+  background-color: #b2ccd2;
+}
+.cid-rrgmVh4HZQ .mbr-section-subtitle {
+  color: #767676;
+}
+.cid-rrgmVh4HZQ .formoid {
+  margin: auto;
+}
+.cid-rrgmVh4HZQ .form-control {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+.cid-rrgmVh4HZQ .input-group-btn .btn {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  margin: 0 !important;
+}
+.cid-rrgmVh4HZQ a:not([href]):not([tabindex]) {
+  color: #fff;
+}
+.cid-rrgmVh4HZQ a.btn-white:not([href]):not([tabindex]) {
+  color: #333;
+}
+@media (max-width: 768px) {
+  .cid-rrgmVh4HZQ .mbr-form .row {
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+  .cid-rrgmVh4HZQ .form-group,
+  .cid-rrgmVh4HZQ .input-group-btn,
+  .cid-rrgmVh4HZQ .input-group-btn .btn {
+    max-width: 300px;
+    width: 100%;
+  }
+}
+@media (min-width: 769px) {
+  .cid-rrgmVh4HZQ .mbr-form .row > * {
+    padding: 0 0.5rem;
+  }
+}
 .cid-ri7fOOUlME {
   padding-top: 45px;
   padding-bottom: 30px;
-  background-color: #b2ccd2;
+  background-color: #ffffff;
 }
 .cid-ri7fOOUlME .title {
   margin-bottom: 2rem;
@@ -1802,7 +1879,7 @@ body {
 .cid-reVwdvrHm6 {
   padding-top: 30px;
   padding-bottom: 30px;
-  background-color: #cccccc;
+  background-color: #e4d295;
 }
 .cid-reVwdvrHm6 .socicon-bg-facebook {
   background: #3e5b98;
