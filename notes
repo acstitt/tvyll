@@ -1,0 +1,10 @@
+Entry by andrew stitt on 2/14/2019
+You will need to add this every time to correct facebook link image because you don't have the mobirise code extension so every new publish from mobirise will overright with its unoptimized og:image code
+
+<!--Added for Facebook Sharing -->
+  <meta property="og:title" content="Tualatin Valley Youth Lacrosse League">
+  <meta property="og:description" content="Register your child today for the exciting sport of lacrosse!">
+  <meta property="og:image" content="http://playlacrosse.us/assets/images/files-2-a-6-2a651af93a1f5f09608e18b32536a517-girlcraddling-640-640x425.jpg">
+  <meta property="og:url" content="http://playlacrosse.us">
+  <meta property="og:site_name" content="Tualatin Valley Youth Lacrosse League">
+  <meta name="twitter:image:alt" content="Tualatin Valley Youth Lacrosse League">
